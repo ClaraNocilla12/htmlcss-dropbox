@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 
-.clearfix::before{
+.clearfix::after{
     content:"";
     display:table;
     clear: both;
@@ -50,15 +50,18 @@ header nav ul li a{
 
 /*MAIN SECTION*/
 
+/*FIRST SECTION*/
+
 .first-container{
-   
-   height: 80vh;
-    background-color: rgb(118, 210, 223);
+  
+  
+    background-color: rgba(155, 217, 253, 0.685);
 }
 .upper-box{
     width: 75%;
     margin:auto;
     padding-top:5%; 
+
 }
 
 h1{
@@ -72,6 +75,7 @@ h1{
 
 .pres-box{
     width:30%;
+    display: inline-block;
    
 }
 
@@ -81,10 +85,31 @@ h1{
 
 .fa-solid{
     transform: scale(2.5);
-    margin: 15% 0 0 0;
+    margin: 15% 0 20% 0;
 }
 
+.img-box{
+   background-image: url(../img/jumbo.png);
+   height:400px;
+   width:650px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   float:right;
+}
+
+/*SECOND SECTION*/
 
 
+.second-container{
+    width: 65%;
+    margin:auto;
+    height: 50vh;
+   
+}
 
+h2{
+    margin-top:15%;
+    
+    font-size: 2rem;
+}
 
