@@ -15,6 +15,11 @@
     display: inline-block;
 }
 
+.bold{
+    font-weight: bolder;
+}
+
+
 .left-side{
    padding: 0.5%;
    margin-left:2%;
@@ -100,16 +105,124 @@ h1{
 /*SECOND SECTION*/
 
 
-.second-container{
+.container{
     width: 65%;
     margin:auto;
-    height: 50vh;
+    
    
 }
 
 h2{
-    margin-top:15%;
+    margin:15% 0 5% 0;
     
     font-size: 2rem;
 }
 
+.input span{
+    padding:0.5%;
+}
+
+.subs{
+    
+    width:calc(100%/3 - 40px);
+    border:1px solid gray;
+    display:inline-block;
+    margin-top:4%;
+     
+}
+
+#margin{
+    margin:0 55px 0 55px;
+}
+
+/* .float-right{
+    float:right;
+} */
+
+.subs h4{
+    text-align: center;
+    padding:2%;
+   
+}
+
+.subs h3{
+    margin:10% 0 10% 0;
+}
+
+.sub-desc{
+    width: 80%;
+    margin:auto;
+}
+
+.line{
+    width: 20%;
+    
+    border-bottom:1px solid lightgrey;
+}
+
+.subs-delux{
+    margin-top:4%;
+    border:1px solid gray;
+}
+
+.subs-delux h4{
+    text-align: center;
+    padding:1%;
+}
+
+.subs-delux h3{
+    margin:3% 0 3% 0;
+}
+
+.time{
+    color:rgb(134, 134, 134);
+    margin: 4% 0 25% 0;
+}
+
+.arc-space{
+    margin: 6% 0 6% 0;
+}
+
+.description{
+    margin: 0 0 20% 0;
+}
+
+.option{
+    margin:15% 0 10% 0;
+}
+
+.sub-desc ul li{
+    
+    list-style: none;
+    margin: 15px;
+}
+
+.subs-delux div{
+margin: 2% 0 2% 0;
+}
+
+.float{
+    float:right;
+}
+
+ /* .margin-b{
+    margin:4% 10% 0 0;
+}  */
+
+/*THIRD SECTION*/
+
+.partner-img{
+    background-image: url(../img/partner.png);
+    width: 520px;
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin:15% 2% 0 0;
+    display: inline-block;
+
+}
+
+.partner-desc{
+    width: 200px;
+    height: auto;
+}
