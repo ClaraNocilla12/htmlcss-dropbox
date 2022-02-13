@@ -31,9 +31,7 @@
     margin-right:3%;
 }
 
-.left-side img{
-    margin-top: 10px;
-}
+
 
 header nav ul li{
     display: inline-block;
@@ -47,7 +45,7 @@ header nav ul li a{
 }
 
 .button{
-    background-color: cornflowerblue;
+    background-color: rgb(51, 83, 224);
      color: white;
      padding:8px 15px;
      text-decoration: none;
@@ -125,7 +123,7 @@ h2{
 .subs{
     
     width:calc(100%/3 - 40px);
-    border:1px solid gray;
+    border:1px solid lightgray;
     display:inline-block;
     margin-top:4%;
      
@@ -142,8 +140,11 @@ h2{
 .subs h4{
     text-align: center;
     padding:2%;
+    border-bottom: 1px solid lightgray;
    
 }
+
+
 
 .subs h3{
     margin:10% 0 10% 0;
@@ -151,8 +152,8 @@ h2{
 
 .sub-desc{
     width: 80%;
-    margin:auto;
-}
+    margin:0 10% 0 10%;
+} 
 
 .line{
     width: 20%;
@@ -162,12 +163,14 @@ h2{
 
 .subs-delux{
     margin-top:4%;
-    border:1px solid gray;
+    border:1px solid lightgray;
+    padding:0 5% 0 5%;
 }
 
 .subs-delux h4{
     text-align: center;
     padding:1%;
+    border-bottom: 1px solid lightgray;
 }
 
 .subs-delux h3{
@@ -197,6 +200,11 @@ h2{
     margin: 15px;
 }
 
+.option a{
+    
+    color: rgb(51, 83, 224);   
+}
+
 .subs-delux div{
 margin: 2% 0 2% 0;
 }
@@ -223,6 +231,17 @@ margin: 2% 0 2% 0;
 }
 
 .partner-desc{
-    width: 200px;
-    height: auto;
+    width: 35%;
+    margin-top:25%;
 }
+
+.partner-desc p{
+    margin:10% 0 10% 0;
+}
+
+#partner-button{
+    background-color: #fff;
+    color:black;
+    border: 1px solid black;
+}
+
