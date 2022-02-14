@@ -65,7 +65,7 @@ header nav ul li a{
 
 /*FIRST SECTION*/
 
-.first-container{
+.blue-container{
   
   
     background-color: rgba(155, 217, 253, 0.685);
@@ -120,7 +120,7 @@ h1{
    
 }
 
-h2{
+.h2-margin{
     margin:15% 0 5% 0;
     
     font-size: 2rem;
@@ -275,4 +275,37 @@ margin: 2% 0 2% 0;
 
 .column-text p{
     margin:5% 0 30% 0 ;
+}
+
+/*FIFTH SECTION*/
+
+.link-customer{
+    margin:2% 0 2% 0;
+     
+}
+
+.link-customer a{
+   color: rgb(51, 83, 224);
+}
+
+/* SIXTH SECTION */
+
+/* SEVENTH SECTION */
+
+.db-column{
+    
+    width:40%;
+    font-size: 2rem;
+    color:rgb(150, 35, 35);
+    
+}
+
+#free-botton{
+    background-color: #fff;
+    color:black;
+    
+}
+
+.db-row{
+    padding: 10% 0 10% 0;
 }
