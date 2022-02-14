@@ -96,7 +96,7 @@ h1{
     margin:5% 0 0 0;
 }
 
-.fa-solid{
+.fa-arrow-down{
     transform: scale(2.5);
     margin: 15% 0 20% 0;
 }
@@ -308,4 +308,25 @@ margin: 2% 0 2% 0;
 
 .db-row{
     padding: 10% 0 10% 0;
+}
+
+/* EIGHTH SECTION */
+
+#faq{
+    font-size: 1.6rem;
+}
+
+.faq-row{
+    padding:2% 0 2% 0;
+    border-top: 1px solid lightgray;
+    
+    font-weight: bold;
+}
+#border-bottom{
+    border-bottom: 1px solid lightgray;
+}
+
+.fa-angle-down{
+    float:right;
+    margin-right:3%;
 }
